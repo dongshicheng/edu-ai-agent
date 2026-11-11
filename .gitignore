@@ -1,0 +1,28 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+chroma_data/
+uploads/
+generated/
+knowledge_base/
+
+# Editor and OS files
+.DS_Store
+.vscode/

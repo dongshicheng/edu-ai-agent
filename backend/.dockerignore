@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+chroma_data/
+uploads/
+generated/
+edu_project.db
+tests/
+.pytest_cache/
